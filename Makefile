@@ -2,8 +2,8 @@
 #
 # expctl - expand control characters
 #
-# @(#) $Revision: 1.1 $
-# @(#) $Id: Makefile,v 1.1 1999/09/22 02:25:33 chongo Exp chongo $
+# @(#) $Revision: 1.2 $
+# @(#) $Id: Makefile,v 1.2 1999/09/22 02:26:57 chongo Exp chongo $
 # @(#) $Source: /usr/local/src/cmd/expctl/RCS/Makefile,v $
 #
 # Copyright (c) 1987 by Landon Curt Noll.  All Rights Reserved.
@@ -25,6 +25,10 @@
 # USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 # OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 # PERFORMANCE OF THIS SOFTWARE.
+#
+# chongo <was here> /\oo/\
+#
+# Share and enjoy!
 
 SHELL= /bin/sh
 BINMODE= 0555
