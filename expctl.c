@@ -4,11 +4,11 @@
  * usage:
  *	expctl < infile > outfile
  *
- * @(#) $Revision: 1.1 $
- * @(#) $Id: expctl.c,v 1.1 1999/09/22 02:25:33 chongo Exp chongo $
- * @(#) $Source: /usr/local/src/cmd/expctl/RCS/expctl.c,v $
+ * @(#) $Revision: 1.2 $
+ * @(#) $Id: expctl.c,v 1.2 1999/09/27 05:36:31 chongo Exp root $
+ * @(#) $Source: /usr/local/src/bin/expctl/RCS/expctl.c,v $
  *
- * Copyright (c) 1987 by Landon Curt Noll.  All Rights Reserved.
+ * Copyright (c) 1987,2015 by Landon Curt Noll.  All Rights Reserved.
  *
  * Permission to use, copy, modify, and distribute this software and
  * its documentation for any purpose and without fee is hereby granted,
@@ -35,6 +35,7 @@
 
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 main()
 {
