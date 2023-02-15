@@ -8,7 +8,7 @@
  * @(#) $Id: expctl.c,v 1.3 2015/09/06 07:13:02 root Exp $
  * @(#) $Source: /usr/local/src/bin/expctl/RCS/expctl.c,v $
  *
- * Copyright (c) 1987,2015 by Landon Curt Noll.  All Rights Reserved.
+ * Copyright (c) 1987,2015,2023 by Landon Curt Noll.  All Rights Reserved.
  *
  * Permission to use, copy, modify, and distribute this software and
  * its documentation for any purpose and without fee is hereby granted,
@@ -37,7 +37,8 @@
 #include <ctype.h>
 #include <stdlib.h>
 
-main()
+int
+main(void)
 {
     int c;	/* char that we just read */
 
