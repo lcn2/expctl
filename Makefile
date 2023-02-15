@@ -2,9 +2,9 @@
 #
 # expctl - expand control characters
 #
-# @(#) $Revision: 1.2 $
-# @(#) $Id: Makefile,v 1.2 1999/09/22 02:26:57 chongo Exp chongo $
-# @(#) $Source: /usr/local/src/cmd/expctl/RCS/Makefile,v $
+# @(#) $Revision: 1.3 $
+# @(#) $Id: Makefile,v 1.3 1999/09/27 05:36:31 chongo Exp $
+# @(#) $Source: /usr/local/src/bin/expctl/RCS/Makefile,v $
 #
 # Copyright (c) 1987 by Landon Curt Noll.  All Rights Reserved.
 #

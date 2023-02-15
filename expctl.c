@@ -4,8 +4,8 @@
  * usage:
  *	expctl < infile > outfile
  *
- * @(#) $Revision: 1.2 $
- * @(#) $Id: expctl.c,v 1.2 1999/09/27 05:36:31 chongo Exp root $
+ * @(#) $Revision: 1.3 $
+ * @(#) $Id: expctl.c,v 1.3 2015/09/06 07:13:02 root Exp $
  * @(#) $Source: /usr/local/src/bin/expctl/RCS/expctl.c,v $
  *
  * Copyright (c) 1987,2015 by Landon Curt Noll.  All Rights Reserved.
