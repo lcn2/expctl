@@ -1,12 +1,8 @@
-#!/usr/bin/make
+#!/usr/bin/env make
 #
 # expctl - expand control characters
 #
-# @(#) $Revision: 1.3 $
-# @(#) $Id: Makefile,v 1.3 1999/09/27 05:36:31 chongo Exp $
-# @(#) $Source: /usr/local/src/bin/expctl/RCS/Makefile,v $
-#
-# Copyright (c) 1987 by Landon Curt Noll.  All Rights Reserved.
+# Copyright (c) 1987,2023 by Landon Curt Noll.  All Rights Reserved.
 #
 # Permission to use, copy, modify, and distribute this software and
 # its documentation for any purpose and without fee is hereby granted,
@@ -30,12 +26,13 @@
 #
 # Share and enjoy!
 
-SHELL= /bin/sh
+SHELL= bash
 BINMODE= 0555
 DESTBIN= /usr/local/bin
 INSTALL= install
 CC= cc
-CFLAGS= -O2
+CFLAGS= -O3 -g3
+RM= rm
 
 all: expctl
 
@@ -48,4 +45,4 @@ install: all
 clean:
 
 clobber: clean
-	-rm -f expctl
+	${RM} -f expctl
