@@ -11,9 +11,30 @@ sudo make install clobber
 ```
 
 
-# To use
+# Examples
+
+Print the message of the day with newlines and tabs expanded too:
 
 ```sh
+$ /usr/local/bin//expctl -n -t < /etc/motd
+```
+
+Print the `expctl` binary in expanded control characters:
+
+```sh
+$ /usr/local/bin//expctl < /usr/lcoal/bin//expctl
+```
+
+Print the `expctl` binary as \xXX hex characters, including newlines and tabs:
+
+```sh
+$ /usr/local/bin//expctl -x -n -t < /usr/lcoal/bin//expctl
+```
+
+
+# To use
+
+```
 /usr/lcoal/bin//expctl [-h] [-V] [-o | -x] [-n] [-t]
 
     -h        print help message and exit
@@ -33,27 +54,6 @@ Exit codes:
  >= 10        internal error
 
 expctl version: 1.4.0 2025-03-30
-```
-
-
-# Examples
-
-Print the message of the day with newlines and tabs expanded too:
-
-```sh
-/usr/local/bin//expctl -n -t < /etc/motd
-```
-
-Print the `expctl` binary in expanded control characters:
-
-```sh
-/usr/local/bin//expctl < /usr/lcoal/bin//expctl
-```
-
-Print the `expctl` binary as \xXX hex characters, including newlines and tabs:
-
-```sh
-/usr/local/bin//expctl -x -n -t < /usr/lcoal/bin//expctl
 ```
 
 
